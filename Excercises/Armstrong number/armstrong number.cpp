@@ -16,12 +16,9 @@ int main()
     int n;
     cout<< "input your number"<<endl;
     cin>> n;
-    
              int sum=0;
              int originaln = n;
              while(n>0){
-                 
-             
              int lastdigit=n%10;
              sum= sum + pow(lastdigit,3);
              n=n/10;
@@ -30,20 +27,11 @@ int main()
              
              if (sum == originaln){
              
-             cout<< "THIS IS AN ARMSTRONG NUMBER"<<endl;
+               cout<< "THIS IS AN ARMSTRONG NUMBER"<<endl;
              }
              
              else {
                  cout<<"THIS IS NOT AN ARMSTRONG NUMBER"<< endl;
-             }
-             
-            
-             
-               
-               
-               
-                
-                
-                
+             }     
     return 0;
 }
