@@ -1,1 +1,1 @@
-58
+f(isalnum(ch))
