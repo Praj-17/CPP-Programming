@@ -27,14 +27,14 @@ int
 main ()
 {
 
-  int a, b;
-  cin >> a >> b;
-
-  for (int i = a; i <= b; i++)
+  int b;
+  cin>>b;
+  int i = 2;
+  for (int i = 2; i <= b; i++)
     {
       if (isPrime (i))
 	{
-	  cout << i << endl;
+	  cout << i <<" ";
 	}
     }
   return 0;
